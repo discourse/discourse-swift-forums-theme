@@ -1,3 +1,10 @@
+:root {
+  --font-family: -apple-system, BlinkMacSystemFont, "SF Hello", "Helvetica Neue",
+    Helvetica, Arial, Verdana, sans-serif;
+  --heading-font-family: -apple-system, BlinkMacSystemFont, "SF Hello",
+    "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+
 .d-header {
   box-shadow: none;
   border-bottom: 1px solid var(--primary-low);
@@ -5,7 +12,7 @@
 }
 
 body {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h1,
@@ -13,7 +20,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .swift-forums-footer {
@@ -23,8 +30,4 @@ h5 {
     margin-left: 0.5em;
     margin-right: 0.5em;
   }
-}
-
-.bootstrap-mode {
-  display: none;
 }
